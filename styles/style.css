@@ -21,7 +21,7 @@
   height: 105px;
 }
 
-.menu{
+.menu {
 display: flex;
 }
 
@@ -47,6 +47,7 @@ display: flex;
   text-underline-position: under; 
   color: #000;
 }
+  
   
 .menu__link_active {
   list-style-type: none;
@@ -250,7 +251,6 @@ display: flex;
   text-align: left;
   font-size: 20px;
   font-weight: 400;
-  line-height: 120%;
   color: #FFFFFF;
   z-index: 2;
 }
@@ -280,10 +280,10 @@ display: flex;
 }
 
 .about__logo-column {
-    display: flex; 
-    justify-content: center;
-    align-items: flex-end;
-    padding-top: 35px;
+  display: flex; 
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 35px;
 }
 
 .about__logo-container {
@@ -362,7 +362,7 @@ display: flex;
   max-height: 48px;
   gap: 48px;
  }
- 
+
  .footer__social_link {
   width: 48px;
  }
