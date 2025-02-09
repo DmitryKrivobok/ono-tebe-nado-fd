@@ -28,13 +28,9 @@ display: flex;
 .header_menu{
   justify-self: center;
   flex-direction: row;
-  column-gap: 8%;
+  gap: 8%;
   list-style-type: circle;
   margin-right: 4px;
-}
-
-.menu__links-item{
-  list-style-type: none;
 }
 
 .menu__links-item_no-bullit{
@@ -122,9 +118,15 @@ display: flex;
 
 .aligned_text_right{
   text-align: right;
-  margin-left: auto;
 }
 
+.letter_spacing-extended{
+  letter-spacing: 0.3em;
+}
+
+.no-letter-spacing{
+  letter-spacing: 0;
+}
 
 
 .cover__discription{
@@ -210,17 +212,17 @@ display: flex;
   text-decoration: none;
 }
 
-.card__type_film{
+.card__lot_film{
   background-image: url(../images/card-lot-01.jpg);
   height: 100%;
 }
 
-.card__type_book{
+.card__lot_book{
   background-image: url(../images/card-lot-02.jpg);
   height: 100%;
 }
 
-.card__type_picture{
+.card__lot_picture{
   background-image: url(../images/card-lot-03.jpg);
   height: 100%;
 }
@@ -272,7 +274,7 @@ display: flex;
   display: grid;
   align-items: start;
   grid-template-columns: 334px 1fr;
-  margin: 0px 24px 179px 24px;
+  margin: 0px 24px 180px 24px;
 }
 
 .about__logo-column{
@@ -340,7 +342,7 @@ display: flex;
   align-self: center;
   align-items: center;
   flex-direction: column;
-  column-gap: 9%;
+  gap: 9%;
   list-style-type: none;
 }
 
